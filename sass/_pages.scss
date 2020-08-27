@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    padding:0px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(120,119,120,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(120,119,120,1);
+box-shadow: 10px 10px 5px 0px rgba(120,119,120,1);
+}
+header > img{
+    height: 60px;
+    width: 300px;
+    object-fit: none;
+    padding-bottom: 3px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bitter', serif;
+}
+#welcome{
+    display: flex;
+    position: fixed;
+}
+
+.welcome h1{
+    padding:10px;
+}
+p, a, span{
+    font-family: 'Raleway', sans-serif;
+    text-indent: 5px;
+}
+#container{
+    padding-left: 10px;
+    display: flex;
+    position: relative;
+}
+.about-us{
+    width: 75%;
+}
+.directory{
+    position: fixed;
+    width: 25%;
+    top: 115px;
+    right: 0;
+    width: 15%;
+    padding-left: 10%;
+    -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+li{
+    display: inline;
+    padding: 5px;
+}
